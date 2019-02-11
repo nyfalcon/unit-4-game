@@ -6,7 +6,7 @@
 */
 body{
     background-color: mediumturquoise;
-    background-image:  url("assets/images/milky.jpg");
+    background-image:  url("https://cdn.spacetelescope.org/archives/images/screen/heic0712h.jpg");
     background-image: url("../images/milky.jpg");
     padding-left: 10px;
 }
