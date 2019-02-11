@@ -1,0 +1,86 @@
+
+ /*
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+*/
+body{
+    background-color: mediumturquoise;
+    background-image:  url("assets/images/milky.jpg");
+    background-image: url("../images/milky.jpg");
+    padding-left: 10px;
+}
+
+header{
+    background-color: whitesmoke;
+    padding-left: 5px;
+}
+
+#instructions{
+    background-color: whitesmoke;
+    padding-left: 10px;
+}
+
+#green{
+    background-color: lightskyblue;
+    width: 150px;
+    padding-left: 5px;
+}
+
+#randomNum{
+    background-color: lightskyblue;
+    width: 100px;
+    padding-left: 50px;
+}
+
+#resultsDiv{
+    background-color: darkseagreen;
+    width: 100px;
+    padding-left: 10px;
+}
+.buttons {
+    
+    background-color: #cccccc;
+    height: 100px;
+    width: 100px;
+   }
+
+#crystal1{
+    background-image: url("../images/emerald-ruby.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#crystal2{
+    background-image: url("../images/Topaz_Honey.png;");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+   
+#crystal3{
+    background-image: url("../images/amethyst-cushion.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#crystal4{
+    background-image: url("../images/round-brilliant.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#totalTitleDiv{
+    background-color: deeppink;
+    padding-left: 10px;
+    width: 225px;
+}
+
+
+#totalScore{
+    
+    width: 225px;
+}
