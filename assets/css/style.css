@@ -45,6 +45,9 @@ header{
     background-color: #cccccc;
     height: 100px;
     width: 100px;
+    font-size: 40pt;
+    color: grey;
+    font-weight: bold;
    }
 
 #crystal1{
@@ -55,7 +58,7 @@ header{
 }
 
 #crystal2{
-    background-image: url("../images/Topaz_Honey.png;");
+    background-image: url("../images/Topaz_Honey.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

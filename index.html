@@ -7,11 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
-    
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-    
-    <script src="assets/javascript/main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../unit-4-game/assets/css/style.css">
+
 </head>
 <body>
    <header><h1>CrystalsCollector!</h1></header>
@@ -25,7 +22,7 @@
 
    <div id="green">
        <h3>Match your score to this number:</h3>
-       <h2 id="randomNum">0</h2>
+       <h2><span id="randomNum">0</span></h2>
    </div>
 
    <div id="resultsDiv">
@@ -34,10 +31,10 @@
    </div>
 
    <div class="buttonDiv">
-        <button type="button" class="buttons" id="crystal1">Crystal 1</button>
-        <button type="button" class="buttons" id="crystal2">Crystal 2</button>
-        <button type="button" class="buttons" id="crystal3">Crystal 3</button>
-        <button type="button" class="buttons" id="crystal4">Crystal 4</button>
+        <button type="button" class="buttons" id="crystal1" onclick="func1()"></button>
+        <button type="button" class="buttons" id="crystal2" onclick="func2()"></button>
+        <button type="button" class="buttons" id="crystal3" onclick="func3()"></button>
+        <button type="button" class="buttons" id="crystal4" onclick="func4()"></button>
     </div>
 
     <div id="totalTitleDiv">
@@ -45,5 +42,54 @@
         <h3 id="totalScore">0</h3>
         </div>
     </div>
+
 </body>
+
+
+<script>
+    var r = Math.floor((Math.random() * 30) +10);
+        var displayRandom = document.getElementById('randomNum');
+        displayRandom.textContent = r;
+
+  
+    function func1() { 
+        var v1 = Math.floor((Math.random() * 10) +5);
+        var crystal1Val = document.getElementById('crystal1');
+        crystal1Val.textContent = v1;
+    }
+    function func2()    {
+        var v2 = Math.floor((Math.random() * 10) +5);
+        var crystal2Val = document.getElementById('crystal2');
+        crystal2Val.textContent = v2;
+    }
+
+    function func3() {
+        var v3 = Math.floor((Math.random() * 10) +5);
+        var crystal3Val = document.getElementById('crystal3');
+        crystal3Val.textContent = v3;
+    }
+
+    function func4()   {
+        var v4 = Math.floor((Math.random() * 10) +5);
+        var crystal4Val = document.getElementById('crystal4');
+        crystal4Val.textContent = v4;
+        console.log (v4);
+    }
+
+  
+
+    // function crystalTotal(){
+    //     v1 + v2 + v3 + v4;
+    //     var crystalTotal = document.getElementById('totalScore');
+    // }
+</script>
+ 
+      
+  
+ 
+
+
+
+
+
 </html>

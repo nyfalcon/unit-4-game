@@ -1,1 +1,18 @@
 # unit-4-game
+
+CrystalsCollector!
+ 
+ Instructions:
+        START: You will be given a random number at the start of the game.
+
+        There are four crystals on the game page. 
+        
+        TOTAL SCORE: By clicking on a crystal you will add a specific amount of points to your total score.
+        
+        WIN ---- You will win the game by matching your total score to a random number. 
+        
+        LOSE ---- You lose the game if your total score goes above the random number.
+        
+        The value of each crystal is hidden from you until you click on it.
+        
+        Each time when the game starts, the game will change the values of each crystal
