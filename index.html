@@ -38,8 +38,7 @@
     </div>
 
     <div id="totalTitleDiv">
-        <h3>Your total score is:</h3>
-        <h3 id="totalScore">0</h3>
+        <h3>Your total score is:<span id="totalScore"></span></h3>
         </div>
     </div>
 
@@ -51,37 +50,44 @@
         var displayRandom = document.getElementById('randomNum');
         displayRandom.textContent = r;
 
-  
+   
     function func1() { 
         var v1 = Math.floor((Math.random() * 10) +5);
         var crystal1Val = document.getElementById('crystal1');
         crystal1Val.textContent = v1;
+        var c1 = v1;
+        console.log (c1);
     }
     function func2()    {
         var v2 = Math.floor((Math.random() * 10) +5);
         var crystal2Val = document.getElementById('crystal2');
         crystal2Val.textContent = v2;
+        var c2 = v2;
+        console.log (c2);
     }
 
     function func3() {
         var v3 = Math.floor((Math.random() * 10) +5);
         var crystal3Val = document.getElementById('crystal3');
         crystal3Val.textContent = v3;
+        var c3 = v3;
+        console.log (c3);
     }
 
     function func4()   {
         var v4 = Math.floor((Math.random() * 10) +5);
         var crystal4Val = document.getElementById('crystal4');
         crystal4Val.textContent = v4;
-        console.log (v4);
+        var c4 = v4;
+        console.log (c4);
     }
 
+ // Add crystal values together
+//  var total = crystal1Val;
+//     var total1 = document.getElementById('totalScore');
+//     total1.textContent = total;
   
 
-    // function crystalTotal(){
-    //     v1 + v2 + v3 + v4;
-    //     var crystalTotal = document.getElementById('totalScore');
-    // }
 </script>
  
       
